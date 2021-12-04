@@ -2,7 +2,7 @@
 
 > This repo is still under construction, it does not have any feature yet.
 
-This package's goal is to shatter Unity mesh into pieces based on different styles and constraints.
+This package's goal is to shatter Unity mesh into voxels in real-time.
 
 
 - [Unity Shatter Physics](#unity-shatter-physics)
@@ -46,6 +46,4 @@ See [license file](./LICENSE) for details.
 
 ## References
 
-- [RafaelKuebler/DelaunayVoronoi](https://github.com/RafaelKuebler/DelaunayVoronoi)
-- [Gvasa/voronoi_fracture](https://github.com/Gvasa/voronoi_fracture)
-- [Real Time Dynamic Fracturewith Volumetric Approximate Convex Decompositions (PDF)](https://matthias-research.github.io/pages/publications/fractureSG2013.pdf)
+- [unity-voxel](https://github.com/mattatz/unity-voxel)
