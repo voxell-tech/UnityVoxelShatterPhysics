@@ -1,7 +1,7 @@
 {
-  "name": "voxell.physics.shatter",
+  "name": "voxell.physics.voxelshatter",
   "displayName": "VX Voxel Shatter Physics",
-  "author": "Nixon, Gigi",
+  "author": "Nixon",
   "description": "Voxel Shatter Physics in Unity.",
   "keywords": [
     "voxel",
@@ -9,15 +9,15 @@
     "physics",
     "voxell"
   ],
-  "license": "GPL v3.0",
-  "unity": "2020.4",
-  "unityRelease": "0f1",
+  "license": "Apache 2.0",
+  "unity": "2020.3",
   "version": "1.0.0",
   "dependencies": {
     "voxell.util": "1.3.0",
     "com.unity.mathematics": "1.2.1",
-    "com.unity.collections": "0.15.0-preview.21",
-    "com.unity.jobs": "0.8.0-preview.23",
+    "com.unity.collections": "1.0.0-pre.5",
+    "com.unity.jobs": "0.11.0-preview.6",
     "com.unity.burst": "1.5.5"
-  }
+  },
+  "hideInEditor": false
 }

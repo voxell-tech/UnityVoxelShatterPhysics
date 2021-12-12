@@ -108,8 +108,6 @@ LICENSE.meta
 
 # large libraries
 native/
-tensorflow.dll
-tensorflow.dll.meta
 
 # research papers
 /ResearchPapers~/
