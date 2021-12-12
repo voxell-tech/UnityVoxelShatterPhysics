@@ -1,3 +1,4 @@
+using System.Runtime.CompilerServices;
 using Unity.Mathematics;
 using Voxell.Mathx;
 
@@ -25,10 +26,10 @@ namespace Voxell.Physics.Shatter
       this.gridCount = boundDiff.x*boundDiff.y*boundDiff.z;
     }
 
-    public int GetGridIdx(float3 p)
-    {
-      int3 g = MathUtil.PointToGrid(p, unitSize) - minBound;
-      return g.x + g.y*Width + g.z*Width*Height;
-    }
+    /// <summary>Generate grid index from grid position.</summary>
+    /// <param name="g">grid position</param>
+    /// <returns>Grid index.</returns>
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public int GetGridIdx(int3 g) => g.x + g.y*Width + g.z*Width*Height;
   }
 }
