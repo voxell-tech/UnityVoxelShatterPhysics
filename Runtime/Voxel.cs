@@ -2,8 +2,8 @@ using Unity.Mathematics;
 
 public struct Voxel
 {
-  float3 position;
-  float2 uv;
-  bool fill;
-  bool frontFace;
+  public float3 position;
+  public float2 uv;
+  public bool fill;
+  public bool frontFace;
 };
